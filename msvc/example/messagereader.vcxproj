@@ -474,14 +474,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\example\messagereader\messagereader.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
-      <Project>{5EA0E896-4018-36D3-834D-7AED41FFA6EE}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
